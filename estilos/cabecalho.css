@@ -1,0 +1,31 @@
+.container__cabecalho {
+    height: 100vh;
+    background-image: url("../imagens/banner.png");
+    background-size: cover;
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+
+}
+
+.container__cabecalho__menu__lista {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 4rem 0 0;
+    gap: 2rem;
+    
+}
+
+.container__cabecalho__menu__lista a {
+    color: var(--cor-principal);
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    opacity: 0.7;
+
+}
+
+.container__cabecalho__menu__lista a:hover {
+    text-decoration: underline;
+
+}
